@@ -1,16 +1,16 @@
-# LangChain Structured Output Practice 🧠📦
+# LangChain Structured Output Practice
 
 This repository contains hands-on practice with **LangChain Structured Output** formats. It focuses on the most popular and widely used methods for structured outputs in LangChain, namely:
 
-- **TypedDict** 📝  
-- **Pydantic** 📘  
-- **JSON Schema** 🧾
+- **TypedDict**   
+- **Pydantic**  
+- **JSON Schema** 
 
 Each example demonstrates how to define structured outputs and how to parse model responses using LangChain's built-in tools. It also includes examples with `with_structured_output`, which provides a clean API to integrate these output formats.
 
 ---
 
-## 🔍 What’s Inside
+## What’s Inside
 
 | File Name | Description |
 |-----------|-------------|
@@ -23,7 +23,7 @@ Each example demonstrates how to define structured outputs and how to parse mode
 
 ---
 
-## 📌 Key Concepts Practiced
+## Key Concepts Practiced
 
 - Defining response structures with `TypedDict`, `Pydantic`, and `JSON Schema`
 - Leveraging LangChain’s `with_structured_output()` method for clean parsing
@@ -32,7 +32,7 @@ Each example demonstrates how to define structured outputs and how to parse mode
 
 ---
 
-## 🧠 Why This Matters
+## Why This Matters
 
 Structured outputs are critical for production-level AI applications. They ensure predictable, validated, and type-safe responses from LLMs — which is especially useful in tools, chains, and agents that rely on consistent outputs.
 
